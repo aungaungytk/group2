@@ -1,0 +1,28 @@
+.dashboard-card {
+  background-color: #b8b5ae;
+  border-radius: 2px;
+  display: inline-flex;
+  padding: 30px;
+  width: calc(100% / 4 - 22px);
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #868277;
+  margin-right: 2px;
+  opacity: 0.8;
+  padding: 20px;
+
+  .title {
+    color: #eca726;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px #81590d;
+  }
+
+  &:first-child {
+    margin-left: 10px;
+  }
+
+  .cardTitle {
+    align-items: center;
+  }
+}
